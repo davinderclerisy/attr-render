@@ -1,0 +1,29 @@
+{
+  "name": "attr-render",
+  "version": "0.0.1",
+  "description": "A JavaScript library for rendering HTML templates with dynamic attributes using domino",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/examples/basic.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "email",
+    "template",
+    "compiler",
+    "domino",
+    "html"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "domino": "^2.1.6"
+  }
+}
